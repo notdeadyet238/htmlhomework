@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    color: #009933;
+}
+
+header .weather {
+    font-size: 14px;
+    color: #333;
+}
+
+nav {
+    background-color: #009933;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    color: white;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.main-article {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.main-article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.side-articles {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.side-articles article {
+    margin-bottom: 20px;
+}
+
+.side-articles img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+aside {
+    flex: 1;
+    margin-left: 20px;
+}
+
+aside article {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #009933;
+    color: blue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
