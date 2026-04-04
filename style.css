@@ -1,43 +1,83 @@
-
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+.header {
+    align-items: center;
 }
-
-header {
-    background-color: #3498db; /* blue example */
+.nav{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(184, 8, 8);
+    padding: 15px;
 }
-
-
+.nav a{
+    background-color: white;
+}
+.container {
+    display: flex;
+    width: 800px;
+}
+.news-left {
+    padding-right: 30px;
+    width: 250px;
+}
+.news-left img{
+    width: 250px;
+}
+.news-center {
+    padding-right: 30px;
+    width: 300px;
+}
+.news-right{
+    padding-right: 30px;
+    width: 300px;
+}
+.news-left h2{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.news-center h2{
+    color: red;
+    font-family: 'Lucida sSans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.news-right h2{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box-left{
+    padding-right: 30px;
+    width: 300px;
+}
+.box-center{
+    height: 100px;
+    width: 10000000px;
+}
+.box-right{
+    display: flex;
+    width: 200px;
+    height: 800px;
+}
+.small-news{
+    width: 800px;
+    height: 1px;
+}
+.box-center img {
+    width: 80px;
+    height: 80px;
+}
+.box-center p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+.body{
+    background-color: aquamarine;
+}
+.small-news h3{
+    font-family: monospace;
+}
 nav {
-    background-color: #2ecc71; /* green example */
+  background: #0f9d58;
+  padding: 5px;
 }
 
-
-main {
-    background-color: #f1c40f; /* yellow example */
-    font-size: 18px;
-}
-
-
-footer {
-    background-color: #e74c3c; /* red example */
-}
-
-
-li {
-    display: inline-block;
-    width: 150px; /* example width */
-}
-
-
-h1 {
-    text-align: center;
-    font-family: 'Georgia', serif;
-    color: #8e44ad; /* purple example */
-}
-
-
-p {
-    line-height: 1.6;
+nav a {
+  color: white;
+  margin-right: 20px;
 }
